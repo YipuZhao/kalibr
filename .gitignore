@@ -1,3 +1,6 @@
+# ROS Bag files
+*.bag
+
 # Compiled Object files
 *.slo
 *.lo
