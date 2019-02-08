@@ -1,0 +1,31 @@
+Calibration results 
+====================
+Camera-system parameters:
+	cam0 (/mynteye/left/image_raw):
+	 type: <class 'aslam_cv.libaslam_cv_python.EquidistantDistortedPinholeCameraGeometry'>
+	 distortion: [-0.01768367 -0.01549801  0.01601082 -0.00810548] +- [ 0.00916042  0.02787537  0.03305357  0.01345381]
+	 projection: [ 365.55096128  363.54471935  381.42062743  243.4099875 ] +- [ 0.29823138  0.28037436  0.25756581  0.61614265]
+	 reprojection error: [0.000024, 0.000003] +- [0.164147, 0.171383]
+
+	cam1 (/mynteye/right/image_raw):
+	 type: <class 'aslam_cv.libaslam_cv_python.EquidistantDistortedPinholeCameraGeometry'>
+	 distortion: [-0.08519865  0.21195507 -0.2771576   0.12064936] +- [ 0.01123225  0.03772936  0.04976543  0.02262674]
+	 projection: [ 367.17226499  365.32509882  368.69219148  215.91585196] +- [ 0.28100342  0.28613585  0.27850231  0.58499345]
+	 reprojection error: [-0.000019, -0.000004] +- [0.191748, 0.172605]
+
+	baseline T_1_0:
+	 q: [ 0.00209194  0.00418805 -0.00056984  0.99998888] +- [ 0.00078916  0.00149489  0.00021499]
+	 t: [-0.11955974  0.00001723 -0.00007684] +- [ 0.00022675  0.0001909   0.00047926]
+
+
+
+Target configuration
+====================
+
+  Type: checkerboard
+  Rows
+    Count: 4
+    Distance: 0.0675 [m]
+  Cols
+    Count: 6
+    Distance: 0.067 [m]
