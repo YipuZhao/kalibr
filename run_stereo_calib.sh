@@ -1,1 +1,3 @@
-kalibr_calibrate_cameras --bag 2019-02-07-13-54-21.bag --topics /mynteye/left/image_raw /mynteye/right/image_raw --models pinhole-equi pinhole-equi --target checkerboard.yaml
+# kalibr_calibrate_cameras --bag 2019-02-07-13-54-21.bag --topics /mynteye/left/image_raw /mynteye/right/image_raw --models pinhole-equi pinhole-equi --target checkerboard.yaml
+
+kalibr_calibrate_cameras --bag /mnt/DATA/Datasets/Turtlebot/MYNT_calib_3/2019-02-08-11-39-29.bag --topics /mynteye/left/image_raw /mynteye/right/image_raw --models pinhole-equi pinhole-equi --target checkerboard_large.yaml --approx-sync 0.05
